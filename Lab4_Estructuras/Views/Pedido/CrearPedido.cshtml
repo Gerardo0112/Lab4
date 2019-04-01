@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "CrearPedido";
+}
+
+<h2>Crear Pedido</h2>
+<form action="/Pedido/GuardarInfoPedido" method="post">
+    <h3>Nombre</h3><input type="text" name="Nombre" value="" />
+    <h3>Direccion</h3><input type="text" name="Direccion" value="" />
+    <h3>NIT</h3><input type="text" name="Nit" value="" />
+    <h3>Producto</h3><input type="text" name="Producto" value="" />
+    <h3>Total</h3><input type="text" name="Total" value="" />
+    <input type="submit" value="Realizar factura" />
+</form>
+

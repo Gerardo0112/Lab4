@@ -1,0 +1,15 @@
+﻿@model Lab4_Estructuras.Models.Pedido
+@{
+    ViewBag.Title = "PedidoGuardado";
+}
+
+<h2>Factura concretada.</h2>
+<h3>El nombre es: @Model.nombre</h3>
+<h3>La direccion es: @Model.direccion</h3>
+<h3>Su nit es: @Model.nit</h3>
+<h3>Producto: @Model.producto</h3>
+<h3>El total es: @Model.total</h3>
+
+<button type="button" onclick="location.href = '@Url.Action("Home","Home")'">Regresar a página de inicio</button>
+
+

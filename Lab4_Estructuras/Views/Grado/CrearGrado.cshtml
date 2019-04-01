@@ -1,0 +1,10 @@
+﻿@model Lab4_Estructuras.Models.Grado
+@{
+    ViewBag.Title = "CrearGrado";
+}
+
+<h2>Crear Grado</h2>
+<form action="/Grado/GuardarInfoGrado" method="post">
+    <h3>Escribir grado del árbol:</h3><input type="text" name="Grado" value="" />
+    <input type="submit" value="Cargar" />
+</form>
